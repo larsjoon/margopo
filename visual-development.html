@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Margot ter Maat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Margot ter Maat</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="visual-development.html" class="active">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="portfolio">
+            <div class="container">
+                <h2>Visual Development Portfolio</h2>
+                <p class="portfolio-subtitle">Character Design • Environment Art • Prop Development</p>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" onclick="openLightbox('https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop', 'Character Expression Studies', 'Exploring emotional range and personality through facial expressions.')">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop" alt="Character Expression Studies">
+                        <div class="portfolio-info">
+                            <h3>Character Expression Studies</h3>
+                            <p>Character Design</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" onclick="openLightbox('https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop', 'Character Turnaround', 'Complete character design with multiple angles and variations.')">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop" alt="Character Turnaround">
+                        <div class="portfolio-info">
+                            <h3>Character Turnaround</h3>
+                            <p>Character Design</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" onclick="openLightbox('https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&h=600&fit=crop', 'Main Character Lineup', 'Principal cast design showing relationships and scale.')">
+                        <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=400&h=300&fit=crop" alt="Main Character Lineup">
+                        <div class="portfolio-info">
+                            <h3>Main Character Lineup</h3>
+                            <p>Character Design</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" onclick="openLightbox('https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop', 'Enchanted Forest', 'Atmospheric environment with dramatic lighting and mood.')">
+                        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop" alt="Enchanted Forest">
+                        <div class="portfolio-info">
+                            <h3>Enchanted Forest</h3>
+                            <p>Environment Design</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" onclick="openLightbox('https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop', 'Urban Landscape', 'Stylized cityscape with focus on color and composition.')">
+                        <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=300&fit=crop" alt="Urban Landscape">
+                        <div class="portfolio-info">
+                            <h3>Urban Landscape</h3>
+                            <p>Environment Design</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" onclick="openLightbox('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop', 'Mountain Vista', 'Sweeping landscape showcasing depth and atmosphere.')">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Mountain Vista">
+                        <div class="portfolio-info">
+                            <h3>Mountain Vista</h3>
+                            <p>Environment Design</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" onclick="openLightbox('https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&h=600&fit=crop', 'Magical Artifacts', 'Detailed prop design with material studies.')">
+                        <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=300&fit=crop" alt="Magical Artifacts">
+                        <div class="portfolio-info">
+                            <h3>Magical Artifacts</h3>
+                            <p>Prop Design</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" onclick="openLightbox('https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=800&h=600&fit=crop', 'Weapon Design Sheet', 'Comprehensive weapon design with construction details.')">
+                        <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=300&fit=crop" alt="Weapon Design Sheet">
+                        <div class="portfolio-info">
+                            <h3>Weapon Design Sheet</h3>
+                            <p>Prop Design</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" onclick="openLightbox('https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800&h=600&fit=crop', 'Everyday Objects', 'Stylized items designed for animated storytelling.')">
+                        <img src="https://images.unsplash.com/photo-1590736969955-71cc94901144?w=400&h=300&fit=crop" alt="Everyday Objects">
+                        <div class="portfolio-info">
+                            <h3>Everyday Objects</h3>
+                            <p>Prop Design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-img" src="" alt="">
+            <div class="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-description"></p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Margot ter Maat. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="#" target="_blank">LinkedIn</a>
+                    <a href="#" target="_blank">ArtStation</a>
+                    <a href="#" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
